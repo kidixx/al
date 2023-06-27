@@ -23,7 +23,7 @@ def list_division(my_list_1, my_list_2, list_length):
                 numb2 = my_list_2[x]
                 total_sum = numb1 / numb2
             else:
-                raise IndexError("out of range")
+                raise IndexError
         except ZeroDivisionError:
             print("division by 0")
         except (TypeError, ValueError):
